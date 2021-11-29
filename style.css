@@ -1,6 +1,12 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: aliceblue;
+  font-family: "Shadows Into Light", cursive;
+  background: linear-gradient(125.95deg, #c700bf 10.95%, #7da900 100%),
+    linear-gradient(341.1deg, #00c2ff 7.52%, #4e00b1 77.98%),
+    linear-gradient(222.34deg, #a90000 12.99%, #00ffe0 87.21%),
+    linear-gradient(130.22deg, #8fa600 18.02%, #5a31ff 100%);
+  background-blend-mode: screen, color-dodge, color-dodge, normal;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 
 .centered {
@@ -11,8 +17,14 @@ body {
   text-align: center;
 }
 
+.rounded {
+  border-radius: 3%;
+  box-shadow: 5px 5px 15px 5px grey;
+}
+
 h1 {
   margin-top: 3rem;
+  font-size: 3rem;
 }
 
 .imgdescription {
